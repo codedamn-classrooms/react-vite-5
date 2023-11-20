@@ -26,10 +26,8 @@ function App() {
 				</p>
 
 				<p>
-					running on{" "}
-					{import.meta.env.VITE_PUBLIC_HOSTNAME ??
-						"codedamn playgrounds"}{" "}
-					on port {import.meta.env.VITE_PUBLIC_PORT ?? "1337"}
+					running on port{" "}
+					<strong>{import.meta.env.VITE_PUBLIC_PORT}</strong>
 				</p>
 			</div>
 		</>
